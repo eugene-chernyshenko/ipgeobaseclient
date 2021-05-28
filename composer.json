@@ -1,0 +1,16 @@
+{
+  "name": "ev4ern/ipgeobaseclient",
+  "type": "library",
+  "description": "Php library for getting information of geo location by ip address.",
+  "keywords": [
+    "geoip"
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "ev4ern\\ipgeobaseclient": "src"
+    }
+  }
+}
