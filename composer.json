@@ -1,5 +1,5 @@
 {
-  "name": "ev4ern/ipgeobaseclient",
+  "name": "eugene-chernyshenko/ipgeobaseclient",
   "type": "library",
   "description": "Php library for getting information of geo location by ip address.",
   "keywords": [
@@ -10,7 +10,7 @@
   },
   "autoload": {
     "psr-0": {
-      "ev4ern\\ipgeobaseclient": "src"
+      "eugene-chernyshenko\\ipgeobaseclient": "src"
     }
   }
 }

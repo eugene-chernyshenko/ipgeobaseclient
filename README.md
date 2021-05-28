@@ -8,7 +8,7 @@ Usage:
 Without memcached
 
 ```
-use ev4ern\ipgeobaseclient\Client;
+use eugene-chernyshenko\ipgeobaseclient\Client;
 
 $client = new Client();
 
@@ -20,7 +20,7 @@ var_dump($region->getRegion());
 With memcached
 
 ```
-use ev4ern\ipgeobaseclient\Client;
+use eugene-chernyshenko\ipgeobaseclient\Client;
 
 $client = (new Client())
     ->setUseMemcached(true)
