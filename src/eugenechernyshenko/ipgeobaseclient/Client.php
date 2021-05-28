@@ -1,17 +1,17 @@
 <?php
 
-namespace eugene-chernyshenko\ipgeobaseclient;
+namespace eugenechernyshenko\ipgeobaseclient;
 
-use eugene-chernyshenko\ipgeobaseclient\exceptions\InvalidIPException;
-use eugene-chernyshenko\ipgeobaseclient\exceptions\IPNotFoundException;
-use eugene-chernyshenko\ipgeobaseclient\exceptions\ResponseException;
+use eugenechernyshenko\ipgeobaseclient\exceptions\InvalidIPException;
+use eugenechernyshenko\ipgeobaseclient\exceptions\IPNotFoundException;
+use eugenechernyshenko\ipgeobaseclient\exceptions\ResponseException;
 use Memcached;
 use SimpleXMLElement;
 
 /**
  * Class Client
  *
- * @package eugene-chernyshenko\ipgeobaseclient
+ * @package eugenechernyshenko\ipgeobaseclient
  */
 class Client
 {
